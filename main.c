@@ -15,6 +15,8 @@
 
 #define MAX_PROC 1024
 
+extern int thisIsGlobal;
+
 int main(int argc, char *argv[]) {
 
 	// DO NOT REMOVE THE BLOCK BELOW (FORK BOMB PREVENTION) //
